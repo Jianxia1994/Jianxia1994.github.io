@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>日成一寸，累之可至千里</title>
+  <title>open-falcon初识 - 日成一寸，累之可至千里</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -22,8 +22,9 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="jianxia1994" />
-  <meta name="description" content="Hugo theme jane example site." />
+<meta name="author" content="Jianxia1994" />
+  <meta name="description" content="优点 自动发现比较好用，支持用户主动push，时间序列数据存储 水平扩展能力好 告警配置较为方便，支持callback调用 主机、metric等的层" />
+
   <meta name="keywords" content="Hugo, theme, jane" />
 
 
@@ -34,8 +35,7 @@
 <meta name="generator" content="Hugo 0.53-DEV" />
 
 
-<link rel="canonical" href="https://Jianxia1994.github.io/" />
-<link href="https://Jianxia1994.github.io/index.xml" rel="alternate" type="application/rss+xml" title="日成一寸，累之可至千里" />
+<link rel="canonical" href="https://Jianxia1994.github.io/post/open-falcon%E5%88%9D%E8%AF%86/" />
 
 
 
@@ -57,18 +57,26 @@
 
 
 
-<meta property="og:title" content="日成一寸，累之可至千里" />
-<meta property="og:description" content="Hugo theme jane example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://Jianxia1994.github.io/" />
-<meta property="og:updated_time" content="2018-03-06T16:01:23&#43;08:00"/>
+<meta property="og:title" content="open-falcon初识" />
+<meta property="og:description" content="优点 自动发现比较好用，支持用户主动push，时间序列数据存储 水平扩展能力好 告警配置较为方便，支持callback调用 主机、metric等的层" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Jianxia1994.github.io/post/open-falcon%E5%88%9D%E8%AF%86/" /><meta property="article:published_time" content="2018-12-17T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-12-17T00:00:00&#43;00:00"/>
 
-<meta itemprop="name" content="日成一寸，累之可至千里">
-<meta itemprop="description" content="Hugo theme jane example site.">
+<meta itemprop="name" content="open-falcon初识">
+<meta itemprop="description" content="优点 自动发现比较好用，支持用户主动push，时间序列数据存储 水平扩展能力好 告警配置较为方便，支持callback调用 主机、metric等的层">
 
+
+<meta itemprop="datePublished" content="2018-12-17T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-12-17T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1094">
+
+
+
+<meta itemprop="keywords" content="golang,“open-falcon” &#34;development&#34;," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="日成一寸，累之可至千里"/>
-<meta name="twitter:description" content="Hugo theme jane example site."/>
+<meta name="twitter:title" content="open-falcon初识"/>
+<meta name="twitter:description" content="优点 自动发现比较好用，支持用户主动push，时间序列数据存储 水平扩展能力好 告警配置较为方便，支持callback调用 主机、metric等的层"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -260,7 +268,7 @@
   <ul id="menu" class="menu">
     
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -376,189 +384,192 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-  <section id="posts" class="posts">
+          <article class="post bg-white">
     
-    
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
+    <header class="post-header">
+      <h1 class="post-title">open-falcon初识</h1>
       
-        <span class="post-pinned">
-          <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
-  width="32" height="32">
-  <path d="M682.666667 512V170.666667h42.666666V85.333333H298.666667v85.333334h42.666666v341.333333l-85.333333 85.333333v85.333334h221.866667v256h68.266666v-256H768v-85.333334l-85.333333-85.333333z"></path>
+      <div class="post-meta">
+        <time datetime="2018-12-17" class="post-time">
+          2018-12-17
+        </time>
+        <div class="post-category">
+            <a href="https://Jianxia1994.github.io/categories/development/"> Development </a>
+            <a href="https://Jianxia1994.github.io/categories/golang/"> golang </a>
+            <a href="https://Jianxia1994.github.io/categories/index/"> index </a>
+            <a href="https://Jianxia1994.github.io/categories/open-falcon/"> open-falcon </a>
+            
+          </div>
+        
+
+        
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#优点">优点</a>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#总之-open-falcon不是一个监控软件-而是一个运维框架-只要把数据整合成标准的形式就可以接收和配置告警-收数据有点类似于prometheus-但是他的告警又远远优于prometheus">总之，open-falcon不是一个监控软件，而是一个运维框架，只要把数据整合成标准的形式就可以接收和配置告警，收数据有点类似于prometheus，但是他的告警又远远优于prometheus</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#组件">组件</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h2 id="优点">优点</h2>
+
+<ol>
+<li>自动发现比较好用，支持用户主动push，时间序列数据存储<br /></li>
+<li>水平扩展能力好<br /></li>
+<li>告警配置较为方便，支持callback调用</li>
+<li>主机、metric等的层级更灵活</li>
+<li>多维度数据展示、用户可以自定义screen</li>
+<li>高可用比zabbix好很多，整个系统没有核心单点，可水平扩展</li>
+<li>后端全部golang，portal和dashboard 为python，适合运维进行二次开发（对比zabbix的php和C）</li>
+<li>针对各个开源软件都有自己的监控插件，比zabbix全面的多，如果没有响应的插件，自己开发也比较容易。插件是独立于agent进程的，安装新插件不需要重启agent<br /></li>
+</ol>
+
+<h6 id="总之-open-falcon不是一个监控软件-而是一个运维框架-只要把数据整合成标准的形式就可以接收和配置告警-收数据有点类似于prometheus-但是他的告警又远远优于prometheus">总之，open-falcon不是一个监控软件，而是一个运维框架，只要把数据整合成标准的形式就可以接收和配置告警，收数据有点类似于prometheus，但是他的告警又远远优于prometheus</h6>
+
+<h2 id="组件">组件</h2>
+
+<ol>
+<li>agent<br />
+监控客户端，相当于zabbix_agent，默认自带了很多监控项不需要配置，同时还提供接口供自定义脚本上报数据
+支持自发现，自定义监控指标通过HBS获取
+每隔60s通过agent与transfer建立的长连接吧数据push给transfer，数据发送速度快</li>
+<li>Aggregater 集群聚合模块<br />
+聚合集群下所有机器的某个指标的值，比如所有机器的qps才是整个集群的qps，平均的某个值才是集群的某个值，计算完成后push回server端。</li>
+<li>hbs（heartbeat server）<br />
+agent每分钟发一次心跳信息给hbs，同时会带上hostname、ip、agent version、plugin version等信息</li>
+<li>portal<br />
+配置报警策略，hbs读取数据库中的策略传给agent</li>
+<li>transfer<br />
+数据转发服务，收到agent上报的数据后，按照哈希规则分片，将分片后的数据分别push给judge和graph</li>
+<li>judge<br />
+告警判断，agent数据传给transfer，transfer给graph绘图，同时给judge判断是否触发告警</li>
+<li>alarm<br />
+judge产生的报警event写入redis，alarm从redis中读取处理</li>
+<li>graph<br />
+存储绘图数据。接收transfer推送的监控数据，也处理query的查询请求，返回绘图数据</li>
+<li>query<br />
+提供统一的绘图数据查询入口。query组件接收查询请求，根据一致性哈希去响应的graph实例查询不同metric的数据，汇总数据返回给用户</li>
+<li>dashbord<br />
+查询和配置界面</li>
+<li>nodata<br />
+检测数据异常，与judge协同工作。配置了nodata的metric在数据缺失的情况下，会自动生成默认模拟数据，供judge检测，使告警更健壮</li>
+<li>task<br />
+定时任务。index更新，包括图表索引的全量更新和垃圾索引清理。falcon服务组件的自身状态收集，falcon自监控任务。</li>
+</ol>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Jianxia1994</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-12-17</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://Jianxia1994.github.io/tags/golang/">golang</a>
+          <a href="https://Jianxia1994.github.io/tags/open-falcon-development/">“open-falcon” &#34;development&#34;</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/jane-theme-preview/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
 </svg>
 
-        </span>
-      
-      <a class="post-link" href="/post/jane-theme-preview.zh-cn/">Jane 主题预览</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2018-03-06" class="post-time">
-        2018-03-06
-      </time>
-      <div class="post-category">
-          <a href="https://Jianxia1994.github.io/categories/shortcodes/"> shortcodes </a>
-          <a href="https://Jianxia1994.github.io/categories/index/"> index </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      主题预览,内容有待填充。
-    </div>
-    <div class="read-more">
-      <a href="/post/jane-theme-preview.zh-cn/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-        <span class="post-pinned">
-          <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
-  width="32" height="32">
-  <path d="M682.666667 512V170.666667h42.666666V85.333333H298.666667v85.333334h42.666666v341.333333l-85.333333 85.333333v85.333334h221.866667v256h68.266666v-256H768v-85.333334l-85.333333-85.333333z"></path>
+            </i>
+            <span class="prev-text nav-default">Jane Theme Preview</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/shortcodes-preview/">
+            <span class="next-text nav-default">Shortcodes Preview</span>
+            <span class="prev-text nav-mobile">Next</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
 </svg>
 
-        </span>
-      
-      <a class="post-link" href="/post/jane-theme-preview/">Jane Theme Preview</a>
-    </h1>
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+  
     
-    <div class="post-meta">
-      <time datetime="2018-01-01" class="post-time">
-        2018-01-01
-      </time>
-      <div class="post-category">
-          <a href="https://Jianxia1994.github.io/categories/docs/"> docs </a>
-          <a href="https://Jianxia1994.github.io/categories/shortcodes/"> shortcodes </a>
-          <a href="https://Jianxia1994.github.io/categories/index/"> index </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <p><strong>Markdown</strong> is created by <a href="http://daringfireball.net/">Daring Fireball</a>, the original guideline is <a href="http://daringfireball.net/projects/markdown/syntax">here</a>. Its syntax, however, varies between different parsers or editors.</p>
-
-<p>Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/jane-theme-preview/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/open-falcon%E5%88%9D%E8%AF%86/">open-falcon初识</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2018-12-17" class="post-time">
-        2018-12-17
-      </time>
-      <div class="post-category">
-          <a href="https://Jianxia1994.github.io/categories/development/"> Development </a>
-          <a href="https://Jianxia1994.github.io/categories/golang/"> golang </a>
-          <a href="https://Jianxia1994.github.io/categories/index/"> index </a>
-          <a href="https://Jianxia1994.github.io/categories/open-falcon/"> open-falcon </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      优点 自动发现比较好用，支持用户主动push，时间序列数据存储 水平扩展能力好 告警配置较为方便，支持callback调用 主机、metric等的层
-    </div>
-    <div class="read-more">
-      <a href="/post/open-falcon%E5%88%9D%E8%AF%86/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-    
-  </section>
-
-  
-  
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li  class="active" >
-        <a href="/">1</a>
-      </li>
-      
-      <li >
-        <a href="/page/2/">2</a>
-      </li>
-      
-      <li >
-        <a href="/page/3/">3</a>
-      </li>
-      
-      <li >
-        <a href="/page/4/">4</a>
-      </li>
-      
-      <li >
-        <a href="/page/5/">5</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
 
 
 
