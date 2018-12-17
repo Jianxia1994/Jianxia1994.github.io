@@ -20,24 +20,6 @@
     </item>
     
     <item>
-      <title>Docs</title>
-      <link>https://Jianxia1994.github.io/categories/docs/</link>
-      <pubDate>Mon, 01 Jan 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://Jianxia1994.github.io/categories/docs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://Jianxia1994.github.io/categories/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://Jianxia1994.github.io/categories/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Golang</title>
       <link>https://Jianxia1994.github.io/categories/golang/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
@@ -49,7 +31,7 @@
     <item>
       <title>Index</title>
       <link>https://Jianxia1994.github.io/categories/index/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://Jianxia1994.github.io/categories/index/</guid>
       <description></description>
@@ -61,33 +43,6 @@
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://Jianxia1994.github.io/categories/open-falcon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://Jianxia1994.github.io/categories/shortcodes/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://Jianxia1994.github.io/categories/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://Jianxia1994.github.io/categories/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://Jianxia1994.github.io/categories/syntax-highlighting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://Jianxia1994.github.io/categories/test/</link>
-      <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://Jianxia1994.github.io/categories/test/</guid>
       <description></description>
     </item>
     
